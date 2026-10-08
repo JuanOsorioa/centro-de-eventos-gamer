@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/8bd5e3e88c.js"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <title>Centro de Eventos Gamer</title>
+</head>
+
+<body>
+
+    <!-- Checkbox que controla el menú -->
+    <input type="checkbox" id="menu-toggle">
+
+    <main>
+
+        <header>
+            <h1>
+                <i class="fa-solid fa-gamepad"
+                   style="color: rgb(255, 255, 255);">
+                </i>
+                Centro de Eventos Gamer
+            </h1>
+        </header>
+
+        <section>
+
+    <section class="sectionHead">
+
+            <div style="display: flex; align-items: center; gap: 10px;">
+
+                <label for="menu-toggle" class="menu-button">
+                    <i class="fa-solid fa-bars fa-2xl"
+                    style="color: rgb(255, 255, 255);">
+                    </i>
+                </label>
+
+                <h2 class="text-button">Próximo evento</h2>
+
+            </div>
+
+            <i class="fa-regular fa-circle-user fa-2xl"
+            style="color: rgb(255, 255, 255);">
+            </i>
+
+            <!-- MENÚ -->
+            <nav class="sidebar">
+
+                <a href="ppEvent.html" target="contenido">
+                    <i class="fa-solid fa-house"></i>
+                    Inicio
+                </a>
+
+                <a href="segundoEvento.html" target="contenido">
+                    <i class="fa-solid fa-calendar"></i>
+                    Segundo evento
+                </a>
+
+                <a href="tercerEvento.html" target="contenido">
+                    <i class="fa-solid fa-users"></i>
+                    Tercer evento
+                </a>
+
+            </nav>
+
+        </section>
+
+
+        <iframe
+            name="contenido"
+            src="ppEvent.html"
+            width="100%"
+            height="700px"
+            frameborder="0">
+        </iframe>
+
+    </section>
+
+        <footer>
+            <p>
+                &copy; 2023 Centro de Eventos Gamer.
+                Todos los derechos reservados.
+            </p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
